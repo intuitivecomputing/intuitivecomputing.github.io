@@ -2,3 +2,4 @@ _site/
 *.swp
 .buildconfig
 .vscode
+images/.DS_Store
