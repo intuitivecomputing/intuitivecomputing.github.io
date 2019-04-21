@@ -3,3 +3,5 @@ _site/
 .buildconfig
 .vscode
 images/.DS_Store
+images/headers/.DS_Store
+images/research/.DS_Store
