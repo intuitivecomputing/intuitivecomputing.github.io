@@ -56,6 +56,19 @@
             Our research implementations are available on our Github page (<a href="https://github.com/intuitivecomputing" id="pub">https://github.com/intuitivecomputing</a>). 
           </p>
 
+          <hr />
+
+          <h2>Dataset: Audio-Visual Representations of Object Drops</h2>
+          <p><span class="image left"><img src="images/openscience/object_permanence.jpg" alt="" /></span>
+            <a href="https://doi.org/10.7281/T1/EP0W7Y" id="pub">Dataset</a> | Bu, Fanjun; Huang, Chien-Ming, 2020, "Dataset: Audio-visual representations of object drops", <a href="https://doi.org/10.7281/T1/EP0W7Y">https://doi.org/10.7281/T1/EP0W7Y</a>, Johns Hopkins University Data Archive, V1
+            <br/>
+            <a href="https://github.com/intuitivecomputing/Object_Permanence_through_AudioVisual_Representations" id="pub">Github page</a> | <a href="https://arxiv.org/abs/2010.09948" id="pub"> Related paper</a> | <a href="https://www.youtube.com/watch?v=Rj-ZZf3r4g8&feature=youtu.be&ab_channel=IntuitiveComputingLaboratory" id ="pub"> Video demo</a>
+            <br><br>
+            As robots perform manipulation tasks and interact with objects, it is probable that they accidentally drop objects that subsequently bounce out of their visual fields (e.g., due to an inadequate grasp of an unfamiliar object). To enable robots to recover from such errors, we draw upon the concept of object permanence—objects remain in existence even when they are not being sensed (e.g., seen) directly.  This dataset was created to address the above challenge. The data was collected by having a Kinova Gen3 Robot Arm repeatedly pick up a wooden cube (3cm x 3cm x 3cm) and release the cube 0.3 meters above a table surface. A 7-channel microphone array was used to record the impact sound from when the robot gripper opened to drop the cube. A camera mounted on the robot’s wrist observed the beginning of the cube’s trajectory before the cube bounced out of view, and a ceiling camera recorded the rest of the trajectory. Audio recordings were saved as WAV files, and the cube’s trajectory was saved as NumPy arrays, with two versions: the partial trajectory observed from the robot wrist camera and the complete trajectory obtained by merging two partial trajectories.
+          </p>
+
+          <hr />
+
           <h2>PySocialForce: A Python Implementation of the Extended Social Force Model for Pedestrian Dynamics</h2>
           <p><span class="image left"><img src="images/openscience/group_crossing.gif" alt="" /></span>
             <a href="https://github.com/yuxiang-gao/PySocialForce" id="pub">Github page</a> | Related publication (available soon)
@@ -73,16 +86,6 @@
             As robots begin to provide daily assistance to individuals in human environments, their end-users, who do not necessarily have substantial technical training or backgrounds in robotics or programming, will ultimately need to program and “re-task” their robots to perform a variety of custom tasks. <br><br> 
             PATI allows users to use simple, common gestures (e.g., pinch gestures) and tools (e.g., shape tools) to specify table-top manipulation tasks (e.g., pick-and-place) for a robot manipulator. It further enables users to interact with the environment directly when providing task specifications; for example, users can utilize gestures and tools to annotate the environment with task-relevant information, such as specifying target landmarks and selecting objects of interest.
           </p>
-
-          <h2>Object Permanence through Audio-Visual Representations</h2>
-          <p><span class="image left"><img src="images/openscience/object_permanence.jpg" alt="" /></span>
-            <a href="https://github.com/intuitivecomputing/Object_Permanence_through_AudioVisual_Representations" id="pub">Github page</a> | <a href="https://arxiv.org/abs/2010.09948" id="pub"> arXiv </a> | <a href="https://www.youtube.com/watch?v=Rj-ZZf3r4g8&feature=youtu.be&ab_channel=IntuitiveComputingLaboratory" id ="pub"> Video demo </a> | <a href="https://doi.org/10.7281/T1/EP0W7Y" id="pub">Dataset</a>
-            <br><br>
-            As robots perform manipulation tasks and interact with objects, it is probable that they accidentally drop objects that subsequently bounce out of their visual fields (e.g., due to an inadequate grasp of an unfamiliar object). To enable robots to recover from such errors, we draw upon the concept of object permanence---objects remain in existence even when they are not being sensed (e.g., seen) directly. <br><br> 
-            We proposed a multimodal neural network model---using a partial, observed bounce trajectory and the audio resulting from drop impact as its inputs---to predict the full bounce trajectory and the end location of a dropped object.
-            We also shared our dataset with the robot community. Our dataset features a robot dropping a cube, which subsequently bounces out of the robot's view (visual field of the wrist camera). Partially observed trajectory (from the robot wrist camera), complete trajectory, and audio resulting from drop inpact are recorded.
-          </p>
-          
 
         </div>
       </section>
