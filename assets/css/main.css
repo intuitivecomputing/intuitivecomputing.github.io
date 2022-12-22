@@ -2057,7 +2057,8 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #00ffcc;
+/*			color: #00ffcc;*/
+			color: #00d5ff;
 		}
 
 		.icon.style2 {
@@ -2796,7 +2797,9 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+/*			background-color: #21b2a6; default*/
+			background-color: #b23221; 
+/*			background-color: #b27821; ed4933*/
 			color: #c8ece9;
 		}
 
@@ -2958,8 +2961,21 @@ input, select, textarea {
 			background-color: #2e3842;
 		}
 
+		.wrapper.style6 { 
+/*			background-color: #505393;*/
+			background-color: #b27f21;
+			color: #d3d4e4;
+		}
+
+		.wrapper.style7 { 
+/*			background-color: #505393;*/
+			background-color: #2e3842;
+			color: #d3d4e4;
+		}
+
 		.wrapper.style3 {
-			background-color: #505393;
+/*			background-color: #505393;*/
+			background-color: #b27f21;
 			color: #d3d4e4;
 		}
 
@@ -3568,10 +3584,10 @@ input, select, textarea {
 			-webkit-transform: scale(1);
 			-ms-transform: scale(1);
 			transform: scale(1);
-			-moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
-			-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
-			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
-			transition: transform 0.5s ease, opacity 0.5s ease;
+			-moz-transition: -moz-transform 0.25s ease, opacity 0.25s ease;
+			-webkit-transition: -webkit-transform 0.25s ease, opacity 0.25s ease;
+			-ms-transition: -ms-transform 0.25s ease, opacity 0.25s ease;
+			transition: transform 0.25s ease, opacity 0.25s ease;
 			display: inline-block;
 			font-size: 1.75em;
 			opacity: 1;
@@ -3581,10 +3597,10 @@ input, select, textarea {
 		}
 
 			#banner h2:before, #banner h2:after {
-				-moz-transition: width 0.85s ease;
-				-webkit-transition: width 0.85s ease;
-				-ms-transition: width 0.85s ease;
-				transition: width 0.85s ease;
+				-moz-transition: width 0.55s ease;
+				-webkit-transition: width 0.55s ease;
+				-ms-transition: width 0.55s ease;
+				transition: width 0.55s ease;
 				-moz-transition-delay: 0.25s;
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
@@ -3617,14 +3633,14 @@ input, select, textarea {
 			}
 
 		#banner .more {
-			-moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
-			-webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
-			-ms-transition: -ms-transform 0.75s ease, opacity 0.75s ease;
-			transition: transform 0.75s ease, opacity 0.75s ease;
-			-moz-transition-delay: 3.5s;
-			-webkit-transition-delay: 3.5s;
-			-ms-transition-delay: 3.5s;
-			transition-delay: 3.5s;
+			-moz-transition: -moz-transform 0.25s ease, opacity 0.25s ease;
+			-webkit-transition: -webkit-transform 0.25s ease, opacity 0.25s ease;
+			-ms-transition: -ms-transform 0.25s ease, opacity 0.25s ease;
+			transition: transform 0.25s ease, opacity 0.25s ease;
+			-moz-transition-delay: 2s;
+			-webkit-transition-delay: 2s;
+			-ms-transition-delay: 2s;
+			transition-delay: 2s;
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
@@ -3664,10 +3680,10 @@ input, select, textarea {
 
 		#banner:after {
 			pointer-events: none;
-			-moz-transition: opacity 3s ease-in-out;
-			-webkit-transition: opacity 3s ease-in-out;
-			-ms-transition: opacity 3s ease-in-out;
-			transition: opacity 3s ease-in-out;
+			-moz-transition: opacity 1.5s ease-in-out;
+			-webkit-transition: opacity 1.5s ease-in-out;
+			-ms-transition: opacity 1.5s ease-in-out;
+			transition: opacity 1.5s ease-in-out;
 			-moz-transition-delay: 1.25s;
 			-webkit-transition-delay: 1.25s;
 			-ms-transition-delay: 1.25s;
