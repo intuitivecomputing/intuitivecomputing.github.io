@@ -17,33 +17,31 @@
   <style>
     /* Add some shadows to create a card effect */
     .card {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.651);
-	margin-bottom: 1.0em;
-	width: 300px; /* Set a fixed width for all cards */
-	height: 450px; /* Set a fixed height for all cards */
-	display: flex; /* Align content within the card */
-	flex-direction: column;
-	justify-content: space-between; /* Space out content evenly */
-	align-items: center;
-	overflow: hidden; /* Prevent overflow of content */
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.651); /* Classic shadow */
+      margin-bottom: 1.0em; /* Space between cards */
+      width: 300px; /* Set fixed width */
+      height: 400px; /* Set fixed height */
+      overflow: hidden; /* Prevent content overflow */
+      display: inline-block; /* Keep original display style */
+      text-align: center; /* Center align content */
     }
-	
+
     .card img {
-	max-width: 100%;
-	height: auto; /* Maintain aspect ratio */
+      width: 100%; /* Make the image fill the card width */
+      height: 60%; /* Restrict the image height to a portion of the card */
+      object-fit: cover; /* Ensure the image scales without distortion */
     }
 
     /* Some left and right padding inside the container */
     .container {
       padding: 10px 16px 20px;
-      text-align: center;
     }
-
+    
     .row {
-      display: flex;
-      flex-wrap: wrap; /* Allow wrapping for responsive layout */
-      gap: 20px; /* Add spacing between cards */
-      justify-content: center; /* Center align all cards in a row */
+      display: flex; /* Use flexbox for row layout */
+      flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+      gap: 20px; /* Space between cards */
+      justify-content: center; /* Center the cards in the row */
     }
 
     div.container p {
@@ -110,17 +108,18 @@
           <!-- <h2 id="content">Current Members</h2> -->
 
           <div class="row">
-	  <div class="col-4 col-12-medium">
-	    <div class="card">
-	      <img src="images/members/chienming-huang.png" alt="Dr. Huang">
-	      <div class="container">
-	        <h3>Chien-Ming Huang</h3>
-	        <p class="title">Principal Investigator</p>
-	        <a href="http://cs.jhu.edu/~cmhuang">Website</a>
-	      </div>
-	    </div>
-	  </div>
-	</div>
+              <div class="col-4 col-12-medium">
+                <div class="card">
+                  <img src="images/members/chienming-huang.png" alt="Dr. Huang">
+                  <div class="container">
+                    <h3>Chien-Ming Huang</h3>
+                    <p class="title">Principal Investigator</p>
+                    <a href="http://cs.jhu.edu/~cmhuang">Website</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Additional cards can go here -->
+            </div>
 
 	  <hr />
           <h2 id="content">Postdoctoral Researcher</h2>
