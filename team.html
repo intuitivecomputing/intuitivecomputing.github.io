@@ -29,7 +29,8 @@
     .card img {
       width: 100%; /* Make the image fill the card width */
       height: 60%; /* Restrict the image height to a portion of the card */
-      object-fit: cover; /* Ensure the image scales without distortion */
+      object-fit: contain; /* Ensure the image scales without distortion */
+      background-color: #f0f0f0; /* Optional: Add a background color to fill empty space */
     }
 
     /* Some left and right padding inside the container */
