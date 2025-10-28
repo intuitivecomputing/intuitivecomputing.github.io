@@ -237,7 +237,15 @@
 	}
 
 .card {
-  overflow: hidden; /* clean crop */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.651);
+  margin-bottom: 1em;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 450px; /* <-- set desired uniform card height */
+  text-align: center;
+  overflow: hidden;
 }
 
 .card img {
