@@ -242,6 +242,14 @@
   object-fit: cover;
 }
 
+.card img {
+  width: 100%;
+  height: 250px;      /* Adjust height to desired uniform size */
+  object-fit: cover;  /* Ensures the image fills frame without distortion */
+  object-position: center; /* Centers image crop */
+  background-color: white; /* Prevents odd backgrounds when transparent */
+}
+
 
 /* news_main */
 
