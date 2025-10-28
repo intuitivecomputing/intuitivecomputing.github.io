@@ -236,6 +236,10 @@
 		background-attachment: scroll;
 	}
 
+.card {
+  overflow: hidden; /* clean crop */
+}
+
 .card img {
   aspect-ratio: 1/1;
   width: 100%;
